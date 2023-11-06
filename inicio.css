@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #134681;
+    height: 41px;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font: 700 20px white
+}
+
+span {
+    color: #134681;
+}
+
+.carro {
+    margin-top: 25px;
+    width: 1126px;
+    height: 563px;
+    align-items: center;
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box2 {
+    background-color: #CFDBE7;
+    height: 563px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.box1 {
+    background-color: #1C4D85;
+    height: 563px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.mecanico {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    justify-content: space-around;
+
+}
+
+.mecanico2 {
+    width: 564px;
+    height: 422px;
+}
+
+.nSei {
+    text-align: center;
+    font: 400 40px black;
+
+}
+
+.marcas {
+    display: flex;
+    margin-top: 150px;
+    background-color: #134681;
+    justify-content: space-around;
+    font: 400 40px #ffffff;
+}
+
+.nSei2 {
+    text-align: center;
+    font: 600 30px white;
+    justify-content: center;
+    color: #FFF;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.marcas3 {
+    padding: 20px;
+}
+
+.sobreNos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #134681;
+    margin-top: 150px;
+    text-align: justify;
+}
+
+.logoGrande {
+    width: auto;
+    height: 300px;
+    text-align: justify;
+}
+
+span2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.sobreNos2 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 120px;
+    margin-left: 120px;
+    color: #134681;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
