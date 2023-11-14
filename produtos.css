@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-family: 'Seoul';
+}
+
+@font-face {
+    font-family: 'Seoul';
+    src: url(SeoulHangang\ CBL\ Regular.ttf);
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #134681;
+    height: 41px;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font: 700 20px white
+}
+
+span {
+    color: #134681;
+}
+
+
+.icone {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box2 {
+    background-color: #CFDBE7;
+    height: 563px;
+    width: 200px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.box1 {
+    background-color: #0F3365;
+    height: 563px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.carro {
+    margin-top: 25px;
+    width: 1126px;
+    height: 563px;
+    align-items: center;
+    display: flex;
+}
+
+.NossosProdutos {
+    color: #000;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.produtos1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.roda {
+    width: 192px;
+    height: 200px;
+    padding: 35px;
+}
+
+.produtos2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.produtos3  {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cada {
+    border: 4px solid #0F3365;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    margin: 20px;
+}
+
+.pneu2 {
+    padding: 20px;
+    font: 700 20px black;
+}
+
+.pneu3 {
+    padding: 20px;
+    font: 700 20px black;
+}
+
+.pneu4 {
+    padding: 20px;
+    font: 700 20px black;
+}
+
+.cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.cartaoIMG {
+    width: 820px;
+    height: 505px;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #134681;
+    height: 505px;
+    width: 800px;
+}
+
+span3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.rodape {
+    width: 200px;
+    height: auto;
+}
+
+.direitos {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .cada:hover {
+    border: 4px solid #0F3365;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+
+} */
